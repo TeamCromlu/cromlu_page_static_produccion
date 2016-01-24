@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Cromlu: Tu propio portafolio profesional en la web 24/7 @TeamCromlu</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
+	<!-- fuentes -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet" type="text/css">
+	<meta name="description" content="Diseñamos tu propio portafolio profesional en la web 24/7 de forma efectiva, Comparte tu experiencia profesional en un solo lugar, donde quieras y cuando quieras @TeamCromlu">
+	<!--Favicom-->
+	<link rel="icon" type="image/png" href="image/cromlu.ico" />
+    <!--link para css -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="body__llamada">
+<header class="Header-Main">
+	<div class="Header-Main__box">
+		<figure class="Header-Main__logo">
+			<a href="http://cromlu.com">
+				<img src="image/cromlu.png" alt="">
+				<h1>Cromlu</h1>
+			</a>
+		</figure>
+	</div>
+</header>
+<section class="Call">
+	<div class="Call__box">
+		<article class="Call__art">
+			<h1>
+				Ok, <span>{{nombre}}</span> te llamaremos ;)
+			</h1>
+			<h2>
+				Te llamaremos a la hora indicada
+			</h2>
+			<p> <strong>Tu email:</strong> <span>{{email}}</span><br>
+				<strong>Tu numero:</strong> <span>{{numero}}</span><br>
+				<strong>Hora Indicada:</strong> <span>{{indicada}}</span><br>
+				En todo caso puedes <br>
+				Llamarnos a: <br>
+				+51 945873773 <br>
+				Escribenos a:<br>
+				<span>
+					web@cromlu.com
+				</span>
+			</p>
+		</article>
+	</div>
+</section>
+	
+<!-- <footer class="Footer-Main">
+	<div class="Footer-Main__box">
+		<p>
+			©Copyright 2015 <a href="https://twitter.com/TeamCromlu" target="_blank">@TeamCromlu</a>
+		</p>
+		<p>
+			Power by cromlu.com
+		</p>
+	</div>
+</footer> -->
+</body>
+</html>
